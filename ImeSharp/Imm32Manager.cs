@@ -261,14 +261,6 @@ namespace ImeSharp
 
         private void IMEChangeCandidate()
         {
-            if (TextServicesLoader.ServicesInstalled) // TSF is enabled
-            {
-                if (!TextStore.Current.SupportUIElement) // But active IME not support UIElement
-                    UpdateCandidates(); // We have to fetch candidate list here.
-
-                return;
-            }
-
             // Normal candidate list fetch in IMM32
             UpdateCandidates();
             // Send event on candidate updates
