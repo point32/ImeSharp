@@ -57,7 +57,11 @@ namespace ImeSharp
         /// <summary>
         /// Return if let OS render IME Candidate window or not.
         /// </summary>
-        public static bool ShowOSImeWindow { get { return _showOSImeWindow; } }
+        public static bool ShowOSImeWindow 
+        { 
+            get { return _showOSImeWindow; }
+            set { _showOSImeWindow = value; }
+        }
 
         public static int CandidatePageSize;
         public static int CandidateSelection;
