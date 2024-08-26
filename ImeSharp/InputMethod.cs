@@ -25,8 +25,6 @@ namespace ImeSharp
             get { return _enabled; }
             set
             {
-                if (_enabled == value) return;
-
                 _enabled = value;
 
                 EnableOrDisableInputMethod(_enabled);
