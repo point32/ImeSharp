@@ -10,6 +10,17 @@
     <LangVersion>12</LangVersion>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Description>A fork of ImeSharp but removes TSF support in order to reduce the size of the assembly.</Description>
+	<PackageTags>IME;net8.0;imm32;MonoGame</PackageTags>
+	<PackageId>ImeSharp.ImmOnly</PackageId>
+	<PackageProjectUrl>https://github.com/point/ImeSharp</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/point32/ImeSharp</RepositoryUrl>
+    <Authors>ryancheung;p0_INT32</Authors>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
   </ItemGroup>
