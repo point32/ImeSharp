@@ -18,7 +18,9 @@
 	<RepositoryUrl>https://github.com/point32/ImeSharp</RepositoryUrl>
     <Authors>ryancheung;p0_INT32</Authors>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	<IncludeSymbols>true</IncludeSymbols>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,6 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-		  <None Include="../README.md" Pack="true" PackagePath="\"/>
+    <None Include="../README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>
